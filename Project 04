@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 04</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+}
+.logo{
+    width: 150px; 
+}
+.nav_bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 60px;
+    align-items: center;
+    background: white;
+    position: fixed;
+    box-sizing: border-box;
+}
+.logo img{
+    width: 100%;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+.nav ul li a{
+    margin: 5px 15px;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+.main{
+    background: url(the-town-bg-01.jpg) center no-repeat;
+    width: 100%;
+    background-size: cover;
+    padding-bottom: 250px;
+}
+.main h2{
+    padding-top: 350px;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    padding-bottom: 15px;
+    text-shadow: 2px 2px 2px black;
+}
+.arrow{
+    text-align: center;
+}
+.main i{
+    font-size: 80px;
+    color: white;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-bottom: 262px;
+    transition: 0.5s;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav_bar">
+            <div class="logo">
+             <img src="logo.png" alt="">
+            </div>
+            <div class="nav">
+            <ul>
+                <li><a href="">Introduction</a></li>
+                <li><a href="">Our Work</a></li>
+                <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+        <h2>Web Development</h2>
+        <div class="arrow">
+            <a href="#introduction"><i class="fa-solid fa-circle-chevron-down"></i></a>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
