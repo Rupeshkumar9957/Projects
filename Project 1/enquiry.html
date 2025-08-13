@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="main">
+        <!--start header section -->
+        <div class="header">
+           <div>
+                <i class="fa-solid fa-globe"></i>
+                <a href="https://www.iipacademy.com/">www.iipacademy.com</a>
+           </div>
+           <div>
+            <i class="fa-regular fa-envelope"></i>
+            <a href="">info@iipacademy.com</a>
+           </div>
+        </div>
+        <!--end header section -->
+
+        <!--start flat section-->
+        <div class="menu">
+            <div class="menu_img">
+                <img src="images/imgi_3_logo.png" alt="">
+            </div>
+            <div class="menu_ul">
+                <ul>
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="course.html" >Courses</a></li>
+                    <li><a href="gellary.html">Gellary</a></li>
+                    <li><a href="enquiry.html" class="page">Enquiry</a></li>
+                    <li><a href="contactUs.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--End flat section-->
+
+        <!--start page section -->
+        <div class="page_section">
+            <!-- Start Left page -->
+            <div class="left_page">
+                    <div class="page_ul">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="aboutus.html">About Us</a></li>
+                            <li><a href="course.html">Courses</a></li>
+                            <li><a href="gellary.html">Gellary</a></li>
+                            <li><a href="enquiry.html">Enquiry</a></li>
+                            <li><a href="contactUs.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="news_page">
+                        <h2>News</h2>
+                        <ul>
+                            <li><img src="images/imgi_4_dot.jpg" alt="">ipsum dolor sit amet.</li>
+                            <li><img src="images/imgi_4_dot.jpg" alt="">ipsum dolor sit amet.</li>
+                            <li><img src="images/imgi_4_dot.jpg" alt="">ipsum dolor sit amet.</li>
+                            <li><img src="images/imgi_4_dot.jpg" alt="">ipsum dolor sit amet.</li>
+                            <li><img src="images/imgi_4_dot.jpg" alt="">ipsum dolor sit amet.</li>
+                        </ul>
+                    </div>
+            </div>
+            <!-- End Left page -->
+            <div class="right_page">
+                <div class="top">
+ 				<h1>Enquiry</h1>		
+ 				<h2><i onclick='window.location.href = "index.html" '> Home /</i> Enquiry</h2>
+ 			</div>
+                <div class="right_container">
+                    <form >
+                        <div class="form_row">
+                            <div class="label_form">Gender :</div>
+                            <div class="input_form">
+                                <input type="radio" name="gender" id="male" class="">Male
+                                <input type="radio" name="gender" id="female" class="">Female
+                            </div>
+                        </div>
+                        <div class="form_row">
+                            <div class="label_form">Name :</div>
+                            <div class="input_box">
+                                <input type="text" name="name" id="name" class="input_box">
+                            </div>
+                        </div>
+                        <div class="form_row">
+                            <div class="label_form">Contact No :</div>
+                            <div class="input_box">
+                                <input type="tel" name="mobile " id="contact" class="input_box">
+                            </div>
+                        </div>
+                        <div class="form_row">
+                            <div class="label_form">Country :</div>
+                            <div class="dropdown">
+                                <select name="country" id="country" >
+                                <option value="">Select</option>
+                                <option value="1">India</option>
+                                <option value="2">Australia</option>
+                                <option value="3">USA</option>
+                                <option value="4">Japan</option>
+                                <option value="5">Russia</option>
+                            </select>
+                            </div>
+                        </div>
+                        <div class="form_row">
+                            <div class="label_form">State :</div>
+                            <div class="dropdown">
+                                <select name="country" id="country">
+                                <option value="">Select</option>
+                                <option value="1">Jharkhand</option>
+                                <option value="2">Odisa</option>
+                                <option value="3">Bihar</option>
+                                <option value="4">West Bangal</option>
+                                <option value="5">Assam</option>
+                            </select>
+                            </div>
+                        </div>
+                        <div class="form_row">
+                            <div class="label_form">City :</div>
+                            <div class="dropdown">
+                                <select name="country" id="country" >
+                                <option value="">Select</option>
+                                <option value="1">Ranchi</option>
+                                <option value="2">Giridih</option>
+                                <option value="3">Jamsedpur</option>
+                                <option value="4">Dhanbad</option>
+                                <option value="5">Kolkata</option>
+                            </select>
+                            </div>
+                        </div>
+                        <div class="form_row">
+                            <div class="label_form">Email : </div>
+                            <div class="input_box">
+                                <input type="email" name="email" id="email">
+                            </div>
+                        </div>
+                        <div class="form_row">
+                            <div class="label_form">Address : </div>
+                            <div >
+                                <textarea name="address" id="address"></textarea>
+                            </div>
+                        </div>
+                        <div class="form_row">
+                            <div class="label_form">Enquiry : </div>
+                            <div >
+                                <textarea name="address" id="address"></textarea>
+                            </div>
+                        </div>
+                        <div class="form_row">
+                            <div class="label_form"><input type="submit" value="send" class="button"></div>
+                        </div>
+                    </form>
+                </div>      
+            </div>
+        </div>
+        <!--End page section -->
+
+        <!--start footer -->
+        <div class="footer">
+            <div class="quicklink_container">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Enquiry</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="Training">
+                 <div class="left_training">
+                <h2>Training</h2>
+                  <ul>
+                    <li><a href="#">PHP (Web Development)</a></li>
+                    <li><a href="#">Advance PHP</a></li>
+                    <li><a href="#">Python</a></li>
+                    <li><a href="#">Android app Development</a></li>
+                    <li><a href="#">Digital marketing</a></li>
+                  </ul>
+                </div>
+                <div class="right_training">
+                    <h2></h2>
+                  <ul>
+                    <li><a href="#">Graphic Design</a></li>
+                    <li><a href="#">Search Engine Optimization</a></li>
+                    <li><a href="#">Wordpress</a></li>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Java</a></li>
+                  </ul>
+                </div>
+            </div>
+            <div class="contact_info">
+                <h2>Contact Info:</h2>
+                <ul>
+                    <li>Call At : 9269698122</li>
+                    <li>1st floor, Laxmi Tower <br>Bhaskar Circle <br>Ratanda, Raj - <br>Jodhpur(342001)</li>
+                </ul>
+                <ul class="icons">
+                    <li><a href=""><img src="images/imgi_14_instagram.png" alt=""></a></li>
+                    <li><a href=""><img src="images/imgi_16_facebook.png" alt=""></a></li>
+                    <li><a href=""><img src="images/imgi_15_twitter.png" alt=""></a></li>
+                    <li><a href=""><img src="images/imgi_17_linked-in.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <!--End Footer-->
+
+        <!-- start footer bottom -->
+         <div class="bottom">
+            Copyright &copy; 2019    
+         </div>
+         <!-- End footer bottom -->
+    </div>
+</body>
+</html>
