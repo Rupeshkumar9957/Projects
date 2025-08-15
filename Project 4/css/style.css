@@ -166,14 +166,80 @@ a{
 .footer{
     width: 100%;
     margin:auto;
-    background: url(../images/the-town-bg-02.jpg);
+    background: url(../image/the-town-bg-02.jpg) fixed center ;
+    background-size: cover;
 }
 .inner_footer{
-    width: 80%;
+    color: white;
+    width: 70%;
     margin: auto;
+
+    
+}
+.contact_us{
+    padding-top: 100px;
+    padding-bottom: 40px;
 }
 .contact_us p{
-    font-size: 50px;
-    padding: 60px 100px;
+    font-size: 70px;
+    border-bottom: 2px solid white;
+}
+.line{
+    width: 25%;
+    height: 4px;
+    background: white;
+}
+.paragraph{
+    padding-top: 60px ;
+    padding-bottom: -15px;
+    font-size: 23px;
+}
+.small_icon{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 40px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+.icons i{
+    font-size: 30px;
+}
+.icons p{
+    padding-left: 15px;
+}
+.submit input{
+    padding: 10px 15px;
+    margin-right: 10px;
+    background: inherit;
+    width: 235px;
+    border: 1px solid white;
     color: white;
+    border-radius: 5px;
+}
+.submit input::placeholder{
+    color: white;
+}
+.submit button{
+    border-radius: 5px;
+    padding: 10px 29px;
+    font-size: 14px;
+    background: #ced4da;
+    border: none;
+}
+.small_icons{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.icons:hover {
+    color: #3496d8;
+}
+.bottom_footer p{
+    padding: 150px 0px 5px 0px;
+    text-align: center;
+
 }
